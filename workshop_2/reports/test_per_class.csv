@@ -1,0 +1,9 @@
+Model,AAMI class,Beats,Predicted abnormal (%),Meaning
+Random Forest (W1),N,12730,2.56,false alarms
+Random Forest (W1),S,219,0.0,detected (recall)
+Random Forest (W1),V,910,86.48,detected (recall)
+Random Forest (W1),F,10,10.0,detected (recall)
+ResNet1D,N,12730,1.57,false alarms
+ResNet1D,S,219,11.87,detected (recall)
+ResNet1D,V,910,92.97,detected (recall)
+ResNet1D,F,10,30.0,detected (recall)

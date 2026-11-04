@@ -1,0 +1,11 @@
+record,sample,p_abnormal,prediction,true_aami,true_label,correct
+124,273767,0.2246,Normal,N,Normal,True
+116,375987,0.1847,Normal,N,Normal,True
+115,64188,0.5019,Normal,N,Normal,True
+115,227983,0.2718,Normal,N,Normal,True
+202,63872,0.32,Normal,N,Normal,True
+201,414228,0.5135,Normal,S,Abnormal,False
+116,195847,0.9985,Abnormal,V,Abnormal,True
+201,76076,0.4813,Normal,S,Abnormal,False
+201,557457,0.7979,Abnormal,S,Abnormal,True
+124,116550,0.9618,Abnormal,V,Abnormal,True

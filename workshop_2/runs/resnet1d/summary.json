@@ -1,0 +1,24 @@
+{
+    "best_epoch": 1,
+    "threshold": 0.7951510548591614,
+    "val_metrics_at_threshold": {
+        "precision": 0.9292134831460674,
+        "recall": 0.8013565891472868,
+        "f1": 0.8605619146722164,
+        "pr_auc": 0.9048498034932966,
+        "roc_auc": 0.973740803281781
+    },
+    "config": {
+        "epochs": 20,
+        "batch_size": 256,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "dropout": 0.3,
+        "patience": 5,
+        "seed": 42,
+        "run_name": "resnet1d",
+        "smoke": false,
+        "pos_weight": 7.551289464554181,
+        "parameters": 356769
+    }
+}
