@@ -1,0 +1,12 @@
+{
+    "dataset": "MIT-BIH Arrhythmia Database",
+    "source": "PhysioNet",
+    "version": "1.0.0",
+    "records_found": 48,
+    "records_processed": 48,
+    "records_with_missing_files": 0,
+    "total_size_bytes": 93857066,
+    "total_size_megabytes": 89.51,
+    "missing_files": [],
+    "record_201_and_202_same_subject": true
+}

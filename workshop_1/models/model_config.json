@@ -1,0 +1,18 @@
+{
+    "model": "Random Forest",
+    "threshold": 0.6,
+    "parameters": {
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": "log2",
+        "max_depth": 10,
+        "class_weight": "balanced"
+    },
+    "features": 216,
+    "sampling_frequency": 360,
+    "classification": {
+        "0": "Normal",
+        "1": "Abnormal"
+    }
+}
