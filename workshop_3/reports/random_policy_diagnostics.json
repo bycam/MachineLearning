@@ -1,0 +1,26 @@
+{
+    "n_episodes": 100,
+    "random_mean_return": -14.13529999999999,
+    "random_std_return": 32.759499399563445,
+    "random_episode_length_mean": 200.0,
+    "random_action_frequency": {
+        "lower 0.20": 4047,
+        "lower 0.05": 4029,
+        "keep": 4047,
+        "raise 0.05": 4009,
+        "raise 0.20": 3868
+    },
+    "random_outcomes": {
+        "tn": 14378,
+        "fp": 3175,
+        "fn": 263,
+        "tp": 2184
+    },
+    "keep_mean_return": 14.82,
+    "keep_std_return": 26.08155670200688,
+    "val_episodes": 71,
+    "val_episode_lengths": {
+        "min": 48,
+        "max": 200
+    }
+}

@@ -1,0 +1,7 @@
+run,train_probs,lr,gamma,eps_decay,weight_decay,best_val_return,best_episode,best_smoothed_val_return,mean_val_return_2nd_half,min_val_return_2nd_half,val_f1_at_best,steps_to_beat_fixed,fixed_threshold_val_return
+dqn_lr1e-4,mix,0.0001,0.95,0.995,0.0,9.55,200,8.834,8.37,7.12,0.9087,40000.0,9.254
+dqn_lr1e-4_eps099_wd,mix,0.0001,0.95,0.99,0.0001,9.262,800,8.703,7.966,6.115,0.8983,159965.0,9.254
+dqn_lr1e-4_g099,mix,0.0001,0.99,0.995,0.0,9.434,325,8.612,7.166,4.945,0.9147,65000.0,9.254
+dqn_mix,mix,0.001,0.95,0.995,0.0,9.95,100,8.508,6.245,0.672,0.911,20000.0,9.254
+dqn_oof,p,0.001,0.95,0.995,0.0,8.594,75,8.016,1.988,-2.328,0.8976,,9.254
+dqn_base,p_w2,0.001,0.95,0.995,0.0,7.136,50,6.262,-0.27,-4.598,0.8694,,9.254
