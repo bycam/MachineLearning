@@ -1,0 +1,21 @@
+{
+    "run_name": "ae_z16",
+    "best_epoch": 30,
+    "best_val_loss": 0.025203170254826546,
+    "val_mse_at_best": 0.025203170254826546,
+    "val_auc_recon_at_best": 0.7082936843344764,
+    "parameters": 81857,
+    "config": {
+        "model": "ae",
+        "z_dim": 16,
+        "beta": 1.0,
+        "anneal_epochs": 10,
+        "epochs": 30,
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "seed": 42,
+        "run_name": "ae_z16",
+        "smoke": false
+    }
+}

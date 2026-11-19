@@ -1,0 +1,21 @@
+{
+    "run_name": "ae_z32",
+    "best_epoch": 30,
+    "best_val_loss": 0.016381775960326195,
+    "val_mse_at_best": 0.016381775960326195,
+    "val_auc_recon_at_best": 0.6494378858552716,
+    "parameters": 137169,
+    "config": {
+        "model": "ae",
+        "z_dim": 32,
+        "beta": 1.0,
+        "anneal_epochs": 10,
+        "epochs": 30,
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "seed": 42,
+        "run_name": "ae_z32",
+        "smoke": false
+    }
+}

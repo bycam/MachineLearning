@@ -1,0 +1,21 @@
+{
+    "run_name": "vae_z32_b1_smoke",
+    "best_epoch": 2,
+    "best_val_loss": 170.02452087402344,
+    "val_mse_at_best": 0.7611446976661682,
+    "val_auc_recon_at_best": 0.8053580169736247,
+    "parameters": 192497,
+    "config": {
+        "model": "vae",
+        "z_dim": 32,
+        "beta": 1.0,
+        "anneal_epochs": 1,
+        "epochs": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "seed": 42,
+        "run_name": "vae_z32_b1_smoke",
+        "smoke": true
+    }
+}

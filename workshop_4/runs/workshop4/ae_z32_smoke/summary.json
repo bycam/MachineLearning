@@ -1,0 +1,21 @@
+{
+    "run_name": "ae_z32_smoke",
+    "best_epoch": 2,
+    "best_val_loss": 0.6764378547668457,
+    "val_mse_at_best": 0.6764378547668457,
+    "val_auc_recon_at_best": 0.7814405772092777,
+    "parameters": 137169,
+    "config": {
+        "model": "ae",
+        "z_dim": 32,
+        "beta": 1.0,
+        "anneal_epochs": 1,
+        "epochs": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "seed": 42,
+        "run_name": "ae_z32_smoke",
+        "smoke": true
+    }
+}
