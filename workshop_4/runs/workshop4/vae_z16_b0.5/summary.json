@@ -1,0 +1,21 @@
+{
+    "run_name": "vae_z16_b0.5",
+    "best_epoch": 26,
+    "best_val_loss": 18.21465492248535,
+    "val_mse_at_best": 0.05230790376663208,
+    "val_auc_recon_at_best": 0.7543881307928382,
+    "parameters": 109521,
+    "config": {
+        "model": "vae",
+        "z_dim": 16,
+        "beta": 0.5,
+        "anneal_epochs": 10,
+        "epochs": 30,
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "seed": 42,
+        "run_name": "vae_z16_b0.5",
+        "smoke": false
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "run_name": "ae_z8",
+    "best_epoch": 30,
+    "best_val_loss": 0.07243930548429489,
+    "val_mse_at_best": 0.07243930548429489,
+    "val_auc_recon_at_best": 0.6942757017988392,
+    "parameters": 54201,
+    "config": {
+        "model": "ae",
+        "z_dim": 8,
+        "beta": 1.0,
+        "anneal_epochs": 10,
+        "epochs": 30,
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "batch_size": 512,
+        "seed": 42,
+        "run_name": "ae_z8",
+        "smoke": false
+    }
+}
