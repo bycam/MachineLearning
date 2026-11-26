@@ -1,0 +1,21 @@
+{
+    "run_name": "gan_vanilla_smoke",
+    "best_epoch": 2,
+    "best_fd": 202.0750743576438,
+    "generator_steps": 32,
+    "config": {
+        "model": "vanilla",
+        "conditional": false,
+        "epochs": 2,
+        "batch_size": 64,
+        "lr": 0.0002,
+        "label_smooth": 0.9,
+        "d_noise": 0.0,
+        "n_critic": 5,
+        "gp_lambda": 10.0,
+        "eval_every": 1,
+        "seed": 42,
+        "run_name": "gan_vanilla_smoke",
+        "smoke": true
+    }
+}
